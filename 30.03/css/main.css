@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+header {
+  background-image: url(./soup.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+header nav {
+  padding: 10px;
+}
+header nav div ul li img {
+  width: 20px;
+  height: 20px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+header .box a {
+  box-sizing: border-box;
+  border-color: antiquewhite;
+  color: white;
+}
+header .box p {
+  color: rgb(228, 104, 59);
+  text-decoration-line: line-through;
+  font-size: 10px;
+  padding: 20px;
+}
+header h2 {
+  color: white;
+  font-size: 40px;
+}
+header .cover {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  position: absolute;
+}
+header a {
+  box-sizing: border-box;
+  background-color: brown;
+  color: white;
+  padding: 5px 5px;
+}/*# sourceMappingURL=main.css.map */
