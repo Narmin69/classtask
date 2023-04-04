@@ -6,6 +6,7 @@ header {
     width: 100%;
     top: 0;
     left: 0;
+
     ul {
 
       display: flex;
@@ -23,5 +24,58 @@ header {
         }
       }
     }
+  }
+}
+
+.bg-section {
+  background-image: url(./images/people.png);
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.opacity {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2;
+  background-color: black;
+  opacity: 0.6;
+  color: white;
+}
+
+.sec1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec2 .col {
+  color: white;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:nth-child(odd) {
+    background-color: #923e8b;
+  }
+
+  &:nth-child(even) {
+    background-color: #1aab5c;
+  }
+}
+
+.sec2 .box:hover {
+  background-image: url(./images/minion.png);
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  h2{
+    display: none;
   }
 }
