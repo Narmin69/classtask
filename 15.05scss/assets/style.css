@@ -1,0 +1,29 @@
+.sec1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+@media only screen and(max-width: 767px) {
+  nav {
+    display: none;
+  }
+  #menu {
+    display: block;
+    color: #fff;
+  }
+}
+nav ul li a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+  }
+  nav ul{
+    display: flex;
+    gap: 50px;
+  }
+nav ul li{
+    list-style: none;
+}
